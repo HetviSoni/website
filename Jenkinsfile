@@ -12,7 +12,7 @@ pipeline {
     stages {
         stage('Clone Website') {
             steps {
-                git url:'https://github.com/HetviSoni/website.git'
+                git url:'https://github.com/HetviSoni/website'
             }
         }
 
